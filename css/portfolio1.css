@@ -1,6 +1,9 @@
 html{
     scroll-behavior: smooth;
 }
+a{
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
 
 h1{
     text-transform: uppercase;
@@ -366,3 +369,4 @@ button:hover, .form-container .btn:hover{
     -webkit-transition-duration: 1s;
     border-color: black;
 }
+
